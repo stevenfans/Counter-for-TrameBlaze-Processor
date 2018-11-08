@@ -1,0 +1,41 @@
+Release 14.6 ngdbuild P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Verilog\14.6\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 CECS460_top.ngc
+CECS460_top.ngd
+
+Reading NGO file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_top.ngc" ...
+Loading design module "ipcore_dir/tb_rom.ngc"...
+Loading design module "ipcore_dir/stack_ram.ngc"...
+Loading design module "ipcore_dir/scratch_ram.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"Nexys4DDR_XC7A100T_ISE-Template.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 185736 kilobytes
+
+Writing NGD file "CECS460_top.ngd" ...
+Total REAL time to NGDBUILD completion:  25 sec
+Total CPU time to NGDBUILD completion:   7 sec
+
+Writing NGDBUILD log file "CECS460_top.bld"...

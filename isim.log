@@ -1,0 +1,21 @@
+ISim log file
+Running: D:\SCHOOL WORK\CECS 460 Labs\Lab_1_ise\CECS460_testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_testbench_isim_beh.wdb 
+ISim P.68d (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_top.v" Line 19.  For instance uut/tramelBlaze/, width 16 of formal port IN_PORT is not equal to width 1 of actual signal switch.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Block Memory Generator CORE Generator module CECS460_testbench.uut.tramelBlaze.tramelblaze.stkr.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module CECS460_testbench.uut.tramelBlaze.tramelblaze.sr.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CECS460_testbench.uut.tramelBlaze.tb_rom.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 1.00s
+Stopped at time : 33620565 ns : File "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/AISO.v" Line 28

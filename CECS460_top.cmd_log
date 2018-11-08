@@ -1,0 +1,103 @@
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 
+xst -intstyle ise -ifn "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_top.xst" -ofn "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "CECS460_top.ngc" CECS460_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CECS460_top_map.ncd CECS460_top.ngd CECS460_top.pcf 
+par -w -intstyle ise -ol high -mt off CECS460_top_map.ncd CECS460_top.ncd CECS460_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CECS460_top.twx CECS460_top.ncd -o CECS460_top.twr CECS460_top.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f CECS460_top.ut CECS460_top.ncd 

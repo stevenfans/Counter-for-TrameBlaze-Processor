@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_testbench_isim_beh.exe" -prj "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_testbench_beh.prj" "work.CECS460_testbench" "work.glbl" 

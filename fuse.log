@@ -1,0 +1,66 @@
+Running: C:\Verilog\14.6\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_testbench_isim_beh.exe -prj D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_testbench_beh.prj work.CECS460_testbench work.glbl 
+ISim P.68d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/ipcore_dir/stack_ram.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/ipcore_dir/scratch_ram.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/tramelblaze.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/Pixel_controller.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/Pixel_clk.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/ipcore_dir/tb_rom.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/hex_to_7seg.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/ad_mux.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/tramelblaze_top.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/SRQ_FLOP.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/ped.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/LD_REG.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/Display_controller.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/debounce.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/comparator.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/AISO.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_top.v" into library work
+Analyzing Verilog file "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_testbench.v" into library work
+Analyzing Verilog file "C:/Verilog/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_top.v" Line 42: Size mismatch in connection of port <IN_PORT>. Formal port size is 16-bit while actual signal size is 1-bit.
+Completed static elaboration
+Fuse Memory Usage: 181928 KB
+Fuse CPU Usage: 436 ms
+Compiling module AISO
+Compiling module debounce
+Compiling module ped
+Compiling module SRQ_FLOP
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module stack_ram
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module scratch_ram
+Compiling module tramelblaze
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module tb_rom
+Compiling module tramelblaze_top
+Compiling module comparator
+Compiling module LD_REG
+Compiling module Pixel_clk
+Compiling module Pixel_controller
+Compiling module ad_mux
+Compiling module hex_to_7seg
+Compiling module Display_controller
+Compiling module CECS460_top
+Compiling module CECS460_testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 31 Verilog Units
+Built simulation executable D:/SCHOOL WORK/CECS 460 Labs/Lab_1_ise/CECS460_testbench_isim_beh.exe
+Fuse Memory Usage: 190156 KB
+Fuse CPU Usage: 843 ms
